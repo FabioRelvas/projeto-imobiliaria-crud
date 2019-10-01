@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/projeto-imobiliaria-crud/precache-manifest.b8c746a060e4c57df5c008d13c48859f.js"
+  "/projeto-imobiliaria-crud/precache-manifest.54dea6c2c701dc79e79ef7af1760eb00.js"
 );
 
 self.addEventListener('message', (event) => {

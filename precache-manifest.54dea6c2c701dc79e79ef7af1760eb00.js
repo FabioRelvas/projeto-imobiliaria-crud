@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d025addf08ee515d480c78d6d89a584",
+    "revision": "c7064ae812ad20d7d1a061ebb9f4fc06",
     "url": "/projeto-imobiliaria-crud/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projeto-imobiliaria-crud/static/css/2.15315edc.chunk.css"
   },
   {
-    "revision": "74865b78b5caa229f151",
+    "revision": "bcfd07a0cbf7204124da",
     "url": "/projeto-imobiliaria-crud/static/css/main.64a05b3c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/projeto-imobiliaria-crud/static/js/2.aec5564b.chunk.js"
   },
   {
-    "revision": "74865b78b5caa229f151",
-    "url": "/projeto-imobiliaria-crud/static/js/main.1e3bc3f2.chunk.js"
+    "revision": "bcfd07a0cbf7204124da",
+    "url": "/projeto-imobiliaria-crud/static/js/main.e12edf47.chunk.js"
   },
   {
     "revision": "1529ca527bf308dc668d",
