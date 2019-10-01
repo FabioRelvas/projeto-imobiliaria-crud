@@ -9,7 +9,12 @@
 			"garagem": 1,
 			"localizacao": "Cabo Frio",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 2,
@@ -20,7 +25,12 @@
 			"garagem": 1,
 			"localizacao": "Cabo Frio",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 3,
@@ -31,7 +41,12 @@
 			"garagem": 1,
 			"localizacao": "Vila Isabel",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 4,
@@ -42,7 +57,12 @@
 			"garagem": 1,
 			"localizacao": "Flamengo",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 5,
@@ -53,7 +73,12 @@
 			"garagem": 1,
 			"localizacao": "Petrópolis",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 6,
@@ -64,7 +89,12 @@
 			"garagem": 1,
 			"localizacao": "Ramos",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 7,
@@ -75,7 +105,12 @@
 			"garagem": 1,
 			"localizacao": "Cabo Frio",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 8,
@@ -86,7 +121,12 @@
 			"garagem": 1,
 			"localizacao": "Ramos",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 9,
@@ -97,7 +137,12 @@
 			"garagem": 1,
 			"localizacao": "Barra da Tijuca",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 10,
@@ -108,7 +153,12 @@
 			"garagem": 1,
 			"localizacao": "Peró",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 11,
@@ -119,7 +169,12 @@
 			"garagem": 1,
 			"localizacao": "Peró",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 12,
@@ -130,7 +185,12 @@
 			"garagem": 1,
 			"localizacao": "Peró",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 13,
@@ -141,7 +201,12 @@
 			"garagem": 1,
 			"localizacao": "Peró",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 14,
@@ -152,7 +217,12 @@
 			"garagem": 1,
 			"localizacao": "Peró",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 15,
@@ -163,7 +233,12 @@
 			"garagem": 1,
 			"localizacao": "Peró",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 16,
@@ -174,7 +249,12 @@
 			"garagem": 1,
 			"localizacao": "Peró",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 17,
@@ -185,7 +265,12 @@
 			"garagem": 1,
 			"localizacao": "Peró",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 18,
@@ -196,7 +281,12 @@
 			"garagem": 1,
 			"localizacao": "Peró",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 19,
@@ -207,7 +297,12 @@
 			"garagem": 1,
 			"localizacao": "Peró",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		},
 		{
 			"id": 20,
@@ -218,7 +313,12 @@
 			"garagem": 1,
 			"localizacao": "Ramos",
 			"descricao": "Casa grande com vista para o mar",
-			"disponibilidade": true
+			"disponibilidade": true,
+			"imagens": [
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel",
+				"https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
+			]
 		}
 	]
 }

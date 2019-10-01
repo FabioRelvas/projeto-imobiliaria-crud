@@ -23,30 +23,11 @@ const ProductDetails = props => {
 			<Row gutter={16}>
 				<Col span={8}>
 					<Carousel autoplay>
-						<div>
-							<img
-								alt="example"
-								src="https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
-							/>
-						</div>
-						<div>
-							<img
-								alt="example"
-								src="https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
-							/>
-						</div>
-						<div>
-							<img
-								alt="example"
-								src="https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
-							/>
-						</div>
-						<div>
-							<img
-								alt="example"
-								src="https://via.placeholder.com/600x240?text=Imagem+Indispon%C3%ADvel"
-							/>
-						</div>
+						{product.imagens.map(imagem => (
+							<div>
+								<img alt="example" src={imagem} />
+							</div>
+						))}
 					</Carousel>
 				</Col>
 
