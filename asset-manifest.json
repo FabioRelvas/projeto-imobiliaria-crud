@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/projeto-imobiliaria-crud/static/css/main.64a05b3c.chunk.css",
-    "main.js": "/projeto-imobiliaria-crud/static/js/main.c3f05831.chunk.js",
-    "main.js.map": "/projeto-imobiliaria-crud/static/js/main.c3f05831.chunk.js.map",
+    "main.css": "/projeto-imobiliaria-crud/static/css/main.a445ffe8.chunk.css",
+    "main.js": "/projeto-imobiliaria-crud/static/js/main.1cfb29c6.chunk.js",
+    "main.js.map": "/projeto-imobiliaria-crud/static/js/main.1cfb29c6.chunk.js.map",
     "runtime-main.js": "/projeto-imobiliaria-crud/static/js/runtime-main.76085923.js",
     "runtime-main.js.map": "/projeto-imobiliaria-crud/static/js/runtime-main.76085923.js.map",
     "static/css/2.15315edc.chunk.css": "/projeto-imobiliaria-crud/static/css/2.15315edc.chunk.css",
     "static/js/2.0a61fd60.chunk.js": "/projeto-imobiliaria-crud/static/js/2.0a61fd60.chunk.js",
     "static/js/2.0a61fd60.chunk.js.map": "/projeto-imobiliaria-crud/static/js/2.0a61fd60.chunk.js.map",
     "index.html": "/projeto-imobiliaria-crud/index.html",
-    "precache-manifest.36db8356ce744d9a50b9be160d4c409e.js": "/projeto-imobiliaria-crud/precache-manifest.36db8356ce744d9a50b9be160d4c409e.js",
+    "precache-manifest.9a0a1f3cc08f431e01f6a5173fd68a72.js": "/projeto-imobiliaria-crud/precache-manifest.9a0a1f3cc08f431e01f6a5173fd68a72.js",
     "service-worker.js": "/projeto-imobiliaria-crud/service-worker.js",
     "static/css/2.15315edc.chunk.css.map": "/projeto-imobiliaria-crud/static/css/2.15315edc.chunk.css.map",
-    "static/css/main.64a05b3c.chunk.css.map": "/projeto-imobiliaria-crud/static/css/main.64a05b3c.chunk.css.map"
+    "static/css/main.a445ffe8.chunk.css.map": "/projeto-imobiliaria-crud/static/css/main.a445ffe8.chunk.css.map"
   }
 }
