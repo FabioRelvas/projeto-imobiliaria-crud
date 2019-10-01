@@ -1,8 +1,20 @@
 import React from 'react';
 
-import { Form, Input, Select, Button, InputNumber, Row, Col } from 'antd';
+import {
+	Form,
+	Input,
+	Select,
+	Button,
+	InputNumber,
+	Row,
+	Col,
+	Upload,
+	Icon,
+	message,
+} from 'antd';
 import LayoutContent from '../../components/Layout';
 
+const { Dragger } = Upload;
 const { Option } = Select;
 
 const CreateEditProduct = () => {
@@ -67,6 +79,21 @@ const CreateEditProduct = () => {
 						<Form.Item label="Descrição">
 							<Input.TextArea rows={4} required></Input.TextArea>
 						</Form.Item>
+					</Row>
+					<Row style={{ paddingBottom: 24 }}>
+						<Col>
+							<Dragger>
+								<p className="ant-upload-drag-icon">
+									<Icon type="inbox" />
+								</p>
+								<p className="ant-upload-text">
+									Clique ou arraste as imagens aqui para fazer o upload.
+								</p>
+								<p className="ant-upload-hint">
+									Apenas demonstração, não funciona.
+								</p>
+							</Dragger>
+						</Col>
 					</Row>
 					<Row>
 						<Col offset={5}>
