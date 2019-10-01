@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Card } from 'antd';
+import { Card, Row } from 'antd';
 const { Meta } = Card;
 
 const Product = ({ type, price, location }) => {
@@ -15,8 +15,13 @@ const Product = ({ type, price, location }) => {
 				/>
 			}
 		>
-			<Meta title={type} description={`Preço: ${price}`} />
-			<span>Localização: {location}</span>
+			<Meta title={type} />
+			<Row style={{ padding: 12 }}>
+				<span>Preço: {price}</span>
+			</Row>
+			<Row>
+				<span>Localização: {location}</span>
+			</Row>
 		</Card>
 	);
 };

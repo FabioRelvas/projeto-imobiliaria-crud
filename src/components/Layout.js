@@ -62,7 +62,7 @@ const LayoutContent = ({
 								/>
 							</Col>
 						)}
-						<Col span={showSidebar ? 20 : 24} style={{ textAlign: 'center' }}>
+						<Col span={showSidebar ? 14 : 24} style={{ textAlign: 'center' }}>
 							<h1 className="title">Imobiliária</h1>
 						</Col>
 					</Row>
@@ -76,7 +76,7 @@ const LayoutContent = ({
 						width: '100%',
 					}}
 				>
-					Footer
+					Copyright&copy;2019 - Aplicações na Internet
 				</Footer>
 			</Layout>
 		</Layout>
