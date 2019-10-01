@@ -3,17 +3,13 @@
 	text-transform: uppercase;
 }
 
-.App {
-	text-align: center;
-	padding: 0 64px;
-}
-
 body {
 	background: #f0f2f5;
 }
 
 .content {
 	height: 100%;
-	padding: 24px;
+	padding: 24px 64px;
 	background: #ffffff;
+	text-align: center;
 }

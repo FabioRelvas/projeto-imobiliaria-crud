@@ -7,7 +7,7 @@ const Product = ({ type, price, location }) => {
 	return (
 		<Card
 			hoverable
-			style={{ width: 300, margin: 24 }}
+			style={{ width: 300, margin: 24, textAlign: 'center' }}
 			cover={
 				<img
 					alt="example"
