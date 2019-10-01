@@ -1,6 +1,8 @@
 import React from 'react';
 import { findProduct } from '../utils/data';
 import { Row, Col, Form, Input, Button, Carousel, Descriptions } from 'antd';
+import MaskedInput from 'react-text-mask';
+import emailMask from 'text-mask-addons/dist/emailMask';
 import LayoutContent from '../components/Layout';
 
 const formItemLayout = {
@@ -87,14 +89,35 @@ const ProductDetails = props => {
 					<Row>
 						<Col span={24} offset={5}>
 							<Form.Item {...formItemLayout} label="Email">
-								<Input required />
+								<MaskedInput mask={emailMask} className="ant-input" />
 							</Form.Item>
 						</Col>
 					</Row>
 					<Row>
 						<Col span={24} offset={5}>
 							<Form.Item {...formItemLayout} label="Telefone">
-								<Input required />
+								<MaskedInput
+									mask={[
+										'(',
+										/[1-9]/,
+										/\d/,
+										')',
+										' ',
+										/\d/,
+										/\d/,
+										/\d/,
+										/\d/,
+										'-',
+										/\d/,
+										/\d/,
+										/\d/,
+										/\d/,
+										/\d?/,
+									]}
+									guide={false}
+									className="ant-input"
+									required
+								/>
 							</Form.Item>
 						</Col>
 					</Row>
