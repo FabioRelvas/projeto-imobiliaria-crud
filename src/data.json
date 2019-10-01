@@ -1,0 +1,224 @@
+{
+	"imoveis": [
+		{
+			"id": 1,
+			"tipoImovel": "Casa",
+			"aluguel": 1000,
+			"quarto": 4,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Cabo Frio",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 2,
+			"tipoImovel": "Casa",
+			"aluguel": 1000,
+			"quarto": 5,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Cabo Frio",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 3,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1000,
+			"quarto": 1,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Vila Isabel",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 4,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1000,
+			"quarto": 2,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Flamengo",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 5,
+			"tipoImovel": "Casa",
+			"aluguel": 1000,
+			"quarto": 1,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Petrópolis",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 6,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1000,
+			"quarto": 3,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Ramos",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 7,
+			"tipoImovel": "Casa",
+			"aluguel": 1000,
+			"quarto": 3,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Cabo Frio",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 8,
+			"tipoImovel": "Casa",
+			"aluguel": 1000,
+			"quarto": 2,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Ramos",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 9,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1000,
+			"quarto": 1,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Barra da Tijuca",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 10,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1300,
+			"quarto": 2,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Peró",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 11,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1300,
+			"quarto": 2,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Peró",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 12,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1300,
+			"quarto": 2,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Peró",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 13,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1300,
+			"quarto": 2,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Peró",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 14,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1300,
+			"quarto": 2,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Peró",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 15,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1300,
+			"quarto": 2,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Peró",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 16,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1300,
+			"quarto": 2,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Peró",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 17,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1300,
+			"quarto": 2,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Peró",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 18,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1300,
+			"quarto": 2,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Peró",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 19,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1300,
+			"quarto": 2,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Peró",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		},
+		{
+			"id": 20,
+			"tipoImovel": "Apartamento",
+			"aluguel": 1200,
+			"quarto": 2,
+			"tamanho": 250,
+			"garagem": 1,
+			"localizacao": "Ramos",
+			"descricao": "Casa grande com vista para o mar",
+			"disponibilidade": true
+		}
+	]
+}
