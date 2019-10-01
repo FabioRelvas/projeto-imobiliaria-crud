@@ -15,7 +15,7 @@ const LayoutContent = ({
 	const [sideBarCollapsed, setSideBarCollapsed] = useState(false);
 
 	return (
-		<Layout className="App" style={{ minHeight: '100vh' }}>
+		<Layout style={{ minHeight: '100vh' }}>
 			{showSidebar && (
 				<Sider
 					trigger={null}
@@ -74,9 +74,13 @@ const LayoutContent = ({
 						bottom: 0,
 						left: 0,
 						width: '100%',
+						textAlign: 'center',
 					}}
 				>
-					Copyright&copy;2019 - Aplicações na Internet
+					<span>Copyright&copy;2019 - Aplicações na Internet</span>
+					<Link to="/"> - Início</Link>
+					<Link to="/login"> - Login</Link>
+					<Link to="/dashboard"> - Dashboard</Link>
 				</Footer>
 			</Layout>
 		</Layout>
