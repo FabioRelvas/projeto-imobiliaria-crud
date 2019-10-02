@@ -5,33 +5,23 @@ import MaskedInput from 'react-text-mask';
 import emailMask from 'text-mask-addons/dist/emailMask';
 import LayoutContent from '../components/Layout';
 
-const formItemLayout = {
-	labelCol: { span: 4 },
-	wrapperCol: { span: 8 },
-};
-
-const formTailLayout = {
-	labelCol: { span: 4 },
-	wrapperCol: { span: 8, offset: 4 },
-};
-
 const ProductDetails = props => {
 	const product = findProduct(props.match.params.id);
 
 	return (
 		<LayoutContent>
 			<Row gutter={16}>
-				<Col span={8}>
+				<Col xs={24} xl={8}>
 					<Carousel autoplay>
 						{product.imagens.map(imagem => (
 							<div>
-								<img alt="example" src={imagem} />
+								<img alt="example" src={imagem} style={{ width: '100%' }} />
 							</div>
 						))}
 					</Carousel>
 				</Col>
 
-				<Col span={14}>
+				<Col xs={24} xl={14}>
 					<Descriptions title="Mais informações do Imóvel" bordered>
 						<Descriptions.Item label="Tipo Imóvel">
 							{product.tipoImovel}
@@ -57,65 +47,56 @@ const ProductDetails = props => {
 					</Descriptions>
 				</Col>
 			</Row>
-			<Row style={{ margin: 24 }}>
-				<h1> Gostou do imóvel? Entre em contato conosco!</h1>
-				<Form>
-					<Row>
-						<Col span={24} offset={5}>
-							<Form.Item {...formItemLayout} label="Nome">
-								<Input required />
-							</Form.Item>
-						</Col>
-					</Row>
-					<Row>
-						<Col span={24} offset={5}>
-							<Form.Item {...formItemLayout} label="Email">
-								<MaskedInput mask={emailMask} className="ant-input" />
-							</Form.Item>
-						</Col>
-					</Row>
-					<Row>
-						<Col span={24} offset={5}>
-							<Form.Item {...formItemLayout} label="Telefone">
-								<MaskedInput
-									mask={[
-										'(',
-										/[1-9]/,
-										/\d/,
-										')',
-										' ',
-										/\d/,
-										/\d/,
-										/\d/,
-										/\d/,
-										'-',
-										/\d/,
-										/\d/,
-										/\d/,
-										/\d/,
-										/\d?/,
-									]}
-									guide={false}
-									className="ant-input"
-									required
-								/>
-							</Form.Item>
-						</Col>
-					</Row>
-					<Row>
-						<Col span={24} offset={5}>
-							<Form.Item {...formTailLayout}>
-								<Button
-									type="primary"
-									htmlType="submit"
-									style={{ width: '70%' }}
-								>
-									Enviar
-								</Button>
-							</Form.Item>
-						</Col>
-					</Row>
-				</Form>
+
+			<Row style={{ margin: 32 }}>
+				<Col span={24}>
+					<h1> Gostou do imóvel? Entre em contato conosco!</h1>
+				</Col>
+			</Row>
+
+			<Row style={{ margin: 32 }} type="flex" align="middle" justify="center">
+				<Col>
+					<Form
+						labelCol={{ xs: { span: 24 }, sm: { span: 8 } }}
+						wrapperCol={{ xs: { span: 24 }, sm: { span: 16 } }}
+					>
+						<Form.Item label="Nome">
+							<Input required />
+						</Form.Item>
+						<Form.Item label="Email">
+							<MaskedInput mask={emailMask} className="ant-input" />
+						</Form.Item>
+						<Form.Item label="Telefone">
+							<MaskedInput
+								mask={[
+									'(',
+									/[1-9]/,
+									/\d/,
+									')',
+									' ',
+									/\d/,
+									/\d/,
+									/\d/,
+									/\d/,
+									'-',
+									/\d/,
+									/\d/,
+									/\d/,
+									/\d/,
+									/\d?/,
+								]}
+								guide={false}
+								className="ant-input"
+								required
+							/>
+						</Form.Item>
+						<Form.Item wrapperCol={{ xs: 24, sm: 24 }}>
+							<Button type="primary" htmlType="submit" size="large">
+								Enviar
+							</Button>
+						</Form.Item>
+					</Form>
+				</Col>
 			</Row>
 		</LayoutContent>
 	);
