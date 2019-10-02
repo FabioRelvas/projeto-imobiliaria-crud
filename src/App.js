@@ -9,18 +9,6 @@ import Login from './pages/dashboard/Login';
 import ProductList from './pages/dashboard/ProductList';
 import CreateEditProduct from './pages/dashboard/CreateEditProduct';
 
-/*
-então teríamos as seguintes páginas:
-- início: mostraria alguns imóveis e teria a barra de busca
-- página do imóvel com dados e contato
-
-dashboard:
-- login
-- início: listagem de imóveis para edição
-- página de criação de imóvel
-- página de edição de imóvel (reaproveitável da criação)
-*/
-
 function App() {
 	return (
 		<div>
