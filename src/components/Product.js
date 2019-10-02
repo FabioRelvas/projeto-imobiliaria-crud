@@ -3,16 +3,13 @@ import PropTypes from 'prop-types';
 import { Card, Row } from 'antd';
 const { Meta } = Card;
 
-const Product = ({ type, price, location }) => {
+const Product = ({ type, price, location, image }) => {
 	return (
 		<Card
 			hoverable
-			style={{ width: 300, margin: 24, textAlign: 'center' }}
+			style={{ maxWidth: 300, margin: 24, textAlign: 'center' }}
 			cover={
-				<img
-					alt="example"
-					src="https://via.placeholder.com/300x300?text=Imagem+Indispon%C3%ADvel"
-				/>
+				<img style={{ width: '100%', height: 256 }} alt="example" src={image} />
 			}
 		>
 			<Meta title={type} />
