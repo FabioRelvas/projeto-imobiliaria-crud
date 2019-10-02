@@ -12,14 +12,19 @@ const Home = () => {
 		<LayoutContent>
 			<SearchBox />
 
-			<Row>
+			<Row gutter={16} type="flex" justify="center">
 				{products.map((product, index) => (
-					<Col span={6} key={`product-${index}`}>
+					<Col key={`product-${index}`}>
 						<Link to={`/imovel/${product.id}`}>
 							<Product
 								type={product.tipoImovel}
 								price={product.aluguel}
 								location={product.localizacao}
+								image={
+									product.imagens && product.imagens.length > 0
+										? product.imagens[0]
+										: 'https://via.placeholder.com/600x300?text=Imagem+Indispon%C3%ADvel'
+								}
 							/>
 						</Link>
 					</Col>
