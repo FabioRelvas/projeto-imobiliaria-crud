@@ -22,16 +22,15 @@ const CreateEditProduct = () => {
 		<LayoutContent showSidebar={true} sidebarCurrentKey="create">
 			<Row type="flex" justify="center" align="top" gutter={16}>
 				<Form style={{ textAlign: 'left', width: 360 }}>
-					<Row>
-						<Form.Item label="Tipo de Imóvel">
-							<Select defaultValue="casa">
-								<Option value="casa">Casa</Option>
-								<Option value="apartamento">Apartamento</Option>
-							</Select>
-						</Form.Item>
-					</Row>
+					<Form.Item label="Tipo de Imóvel">
+						<Select defaultValue="casa">
+							<Option value="casa">Casa</Option>
+							<Option value="apartamento">Apartamento</Option>
+						</Select>
+					</Form.Item>
+
 					<Row gutter={16}>
-						<Col span={12}>
+						<Col xs={24} md={12}>
 							<Form.Item label="Valor (R$)">
 								<InputNumber
 									style={{ textAlign: 'left', width: '100%' }}
@@ -43,7 +42,7 @@ const CreateEditProduct = () => {
 								/>
 							</Form.Item>
 						</Col>
-						<Col span={12}>
+						<Col xs={24} md={12}>
 							<Form.Item label="Número de Quartos">
 								<InputNumber
 									style={{ textAlign: 'left', width: '100%' }}
@@ -53,7 +52,7 @@ const CreateEditProduct = () => {
 						</Col>
 					</Row>
 					<Row gutter={16}>
-						<Col span={12}>
+						<Col xs={24} md={12}>
 							<Form.Item label="Tamanho (m²)">
 								<InputNumber
 									style={{ textAlign: 'left', width: '100%' }}
@@ -61,7 +60,7 @@ const CreateEditProduct = () => {
 								></InputNumber>
 							</Form.Item>
 						</Col>
-						<Col span={12}>
+						<Col xs={24} md={12}>
 							<Form.Item label="Garagem">
 								<InputNumber
 									style={{ textAlign: 'left', width: '100%' }}
