@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 
 // import Footer from './footer'
 import { Layout, Icon, Row, Col, Menu } from 'antd';
@@ -8,11 +8,18 @@ import { Layout, Icon, Row, Col, Menu } from 'antd';
 const { Footer, Content, Sider, Header } = Layout;
 
 const LayoutContent = ({
+	history,
 	children,
 	showSidebar = false,
 	sidebarCurrentKey = 'home',
 }) => {
 	const [sideBarCollapsed, setSideBarCollapsed] = useState(false);
+
+	const logOut = () => {
+		fetch('/sair', { method: 'GET' })
+			.catch(e => console.error(e))
+			.finally(() => history.push('/login'));
+	};
 
 	return (
 		<Layout style={{ minHeight: '100vh' }}>
@@ -40,11 +47,9 @@ const LayoutContent = ({
 								<span>Adicionar</span>
 							</Link>
 						</Menu.Item>
-						<Menu.Item key="logout">
-							<Link to="/login">
-								<Icon type="user-delete" />
-								<span>Sair</span>
-							</Link>
+						<Menu.Item key="logout" onClick={logOut}>
+							<Icon type="user-delete" />
+							<span>Sair</span>
 						</Menu.Item>
 					</Menu>
 				</Sider>
@@ -92,4 +97,4 @@ LayoutContent.propTypes = {
 	sidebar: PropTypes.element,
 };
 
-export default LayoutContent;
+export default withRouter(LayoutContent);
